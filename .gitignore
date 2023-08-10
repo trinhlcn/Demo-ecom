@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+.idea/
+yarn.lock
+
+# package-lock.json
+
+cypress/videos
+cypress/screenshots

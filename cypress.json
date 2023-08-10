@@ -1,0 +1,18 @@
+{
+    "projectId": "qtc9em",
+    "requestTimeout": 60000,
+    "defaultCommandTimeout": 60000,
+    "responseTimeout": 60000,
+    "fileServerFolder": "testing",
+    "ignoreTestFiles": [
+        "**/components/**/*.js",
+        "**/pages/login/**/*.js"
+    ],
+    "env": {
+        "AUTH_ADX_DOMAIN": "https://sandbox-ogs.ants.vn/"
+    },
+    "retries": {
+        "runMode": 0,
+        "openMode": 0
+    }
+}

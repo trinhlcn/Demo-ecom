@@ -1,0 +1,31 @@
+{
+  "name": "antalyser-e2e-testing",
+  "version": "1.0.0",
+  "dependencies": {
+    "@cypress/commit-info": "^2.2.0",
+    "@cypress/webpack-preprocessor": "^5.10.0",
+    "axios": "^0.24.0",
+    "cypress": "^9.1.1",
+    "deep-equal-in-any-order": "^1.1.15",
+    "form-data": "^4.0.0",
+    "localforage": "^1.10.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  },
+  "scripts": {
+    "cypress-dev": "cypress open --env configFile=demo-ecom.antsomi.com",
+    "cypress-dev-run": "cypress run --env configFile=demo-ecom.antsomi.com",
+    "e2e-sandbox-antalyser": "cypress run --env configFile=sandbox-antalyser.ants.vn --tag sandbox --record --key 75332694-e9fb-4596-9f19-e217f9b800a2",
+    "e2e-staging-antalyser": "cypress run --env configFile=staging-antalyser.ants.vn --tag staging --record --key d947a757-f02f-4619-a5ff-308899774f1d --group 4x-staging-antalyser --parallel ",
+    "e2e-antalyser": "cypress run --env configFile=antalyser.ants.vn --tag antalyser --record --key d947a757-f02f-4619-a5ff-308899774f1d --group 4x-production-antalyser --parallel",
+    "e2e-insights": "cypress run --env configFile=insights.antsomi.com --tag insights --record --key d947a757-f02f-4619-a5ff-308899774f1d --group 4x-production-insights --parallel"
+  },
+  "devDependencies": {
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-network-idle": "^1.3.3",
+    "eslint": "^8.5.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "webpack": "^5.10.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://sandbox-antalyser.ants.vn/#/",
+    "env": {
+        "ENV": "sandbox",
+        "AUTH_ADX_DOMAIN": "https://sandbox-aacm.ants.vn/",
+        "PERMISSION_URL": "https://sandbox-permission.ants.vn/",
+        "COOKIE_USER": "uogs_sand_76753",
+        "APP_ID": "76753",
+        "userName": "qc_auto@gmail.com",
+        "password": "123456789"
+    },
+    "testFiles": [
+        "**/pages/report/report-design/workspace/charts/**/*.spec.js"
+    ],
+    "ignoreTestFiles": [
+        "**/constant.js",
+        "**/report-design/export-pdf/**/*.js",
+        "**/*/*.data.js",
+        "**/share-download-report/*.js"
+    ]
+}

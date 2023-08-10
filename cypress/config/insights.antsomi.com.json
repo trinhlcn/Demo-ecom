@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://insights.antsomi.com/#/",
+    "env": {
+        "ENV": "production",
+        "AUTH_ADX_DOMAIN": "https://ogs.antsomi.com/",
+        "COOKIE_USER": "uogs_antalyser",
+        "APP_ID": "44493"
+    },
+    "ignoreTestFiles": [
+        "**/workflow-history/**/*.js",
+        "**/components/**/*.js",
+        "**/gallery-template/**/*.js",
+        "**/*/*.data.js"
+    ]
+}

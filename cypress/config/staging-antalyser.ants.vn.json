@@ -1,0 +1,21 @@
+{
+    "baseUrl": "https://staging-antalyser.ants.vn/#/",
+    "env": {
+        "ENV": "staging",
+        "AUTH_ADX_DOMAIN": "https://staging-ogs.ants.vn/",
+        "COOKIE_USER": "uogs_staging_antalyser",
+        "APP_ID": "64561",
+        "userName": "automation_test@gmail.com",
+        "password": "123123123"
+    },
+    "testFiles": [
+        "**/domain/antalyser.ants.vn/**/*.js",
+        "**/pages/**/*.js"
+    ],
+    "ignoreTestFiles": [
+        "**/workflow-history/**/*.js",
+        "**/report-design/export-pdf/**/*.js",
+        "**/*/*.data.js",
+        "**/share-download-report/*.js"
+    ]
+}

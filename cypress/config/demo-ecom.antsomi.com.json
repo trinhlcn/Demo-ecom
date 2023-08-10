@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://demo-ecom.antsomi.com",
+  "env": {
+    "COOKIE_UID": "_asm_uid",
+    "UID": "1200196417"
+  },
+  "testFiles": ["**/pages/demo-ecom/**/*.spec.js"],
+  "ignoreTestFiles": [
+    "**/constant.js",
+    "**/report-design/export-pdf/**/*.js",
+    "**/*/*.data.js",
+    "**/share-download-report/*.js"
+  ]
+}
