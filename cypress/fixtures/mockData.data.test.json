@@ -1,0 +1,64 @@
+{
+  "ACCOUNT_USERS": [
+    {
+      "email": "verusenti@gmail.com",
+      "password": "demo@123",
+      "cookie": "1200196417",
+      "gender": "female"
+    },
+    {
+      "email": "allyarticles@gmail.com",
+      "password": "demo@123",
+      "cookie": "1203839546",
+      "gender": "male"
+    },
+    {
+      "email": "angelcover@gmail.com",
+      "password": "demo@123",
+      "cookie": "1207063863",
+      "gender": "female"
+    },
+    {
+      "email": "chronobest@gmail.com",
+      "password": "demo@123",
+      "cookie": null,
+      "gender": "male"
+    },
+    {
+      "email": "crunchsilly@gmail.com",
+      "password": "demo@123",
+      "cookie": "1208783540",
+      "gender": "male"
+    },
+    {
+      "email": "deriffra@gmail.com",
+      "password": "demo@123",
+      "cookie": null,
+      "gender": "male"
+    },
+    {
+      "email": "dubyashcam@gmail.com",
+      "password": "demo@123",
+      "cookie": null,
+      "gender": "female"
+    },
+    {
+      "email": "elitagi@gmail.com",
+      "password": "demo@123",
+      "cookie": "1207073800",
+      "gender": "male"
+    },
+    {
+      "email": "everol@gmail.com",
+      "password": "demo@123",
+      "cookie": null,
+      "gender": "male"
+    },
+    {
+      "email": "fancien@gmail.com",
+      "password": "demo@123",
+      "cookie": null,
+      "gender": "female"
+    }
+  ]
+}

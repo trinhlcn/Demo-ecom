@@ -4,6 +4,7 @@
     "COOKIE_UID": "_asm_uid",
     "UID": "1200196417"
   },
+  "watchForFileChanges": false,
   "testFiles": ["**/pages/demo-ecom/**/*.spec.js"],
   "ignoreTestFiles": [
     "**/constant.js",
